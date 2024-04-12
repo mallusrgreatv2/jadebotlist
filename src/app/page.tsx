@@ -19,8 +19,8 @@ export default function Home() {
           <TypographyH2 className="text-center my-9">JadeList</TypographyH2>
         </Link>
       </div>
-      <div className="flex flex-col justify-center mt-10 lg:m-10 text-center">
-        <TypographyH1 className="text-2xl lg:text-3xl">
+      <div className="flex flex-col justify-center mt-10 text-center">
+        <TypographyH1 className="text-3xl">
           Find the{" "}
           <span className="text-green-600">
             {homePageConfig.finds[
@@ -28,18 +28,15 @@ export default function Home() {
             ] || "the best bot for your server"}
           </span>
         </TypographyH1>
-        <div className="relative mt-10">
-          <SearchIcon
-            className="absolute z-10 top-4 left-[28.55rem]"
-            size={23}
-          />
+        <div className="m-10 flex flex-row justify-center items-center">
+          <SearchIcon className="relative z-10 left-10" size={23} />
           <div>
             <input
               type="search"
               name="Search Bots"
               id="search"
               placeholder="Search for a bot"
-              className="bg-green-600 placeholder:text-white w-[30%] py-4 pl-12 pr-4 text-[1.06rem] rounded-3xl focus:bg-green-500 transition-colors text-search-text outline-none overflow-auto shadow-lg select-none relative"
+              className="bg-green-600 placeholder:text-white py-4 pl-12 pr-4 text-[1.06rem] rounded-3xl focus:bg-green-500 transition-colors outline-none shadow-lg select-none"
             />
           </div>
         </div>
