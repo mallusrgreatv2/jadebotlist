@@ -28,7 +28,7 @@ export default function Home() {
             ] || "the best bot for your server"}
           </span>
         </TypographyH1>
-        <div className="m-10 flex flex-row justify-center items-center">
+        <div className="mt-10 flex flex-row justify-center items-center">
           <SearchIcon className="relative z-10 left-10" size={23} />
           <div>
             <input
